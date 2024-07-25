@@ -10,9 +10,9 @@
   <body>
 <div class="container">
  <div class="form-box">
-   <h1>Sign Up</h1>
+   <h1 id="title">Sign Up</h1>
    <form class="input-group">
-     <div class="input-field">
+     <div class="input-field" id="nameField">
        <i class="fa-solid fa-user"></i>
        <input type="text" placeholder="Name">
      </div>
@@ -27,10 +27,16 @@
        <input type="password" placeholder="Password">
      </div>
 
+     <p>Forgot Password? <a href="#">Click Here</a></p>
+
+  <div class="btn-field">
+    <button type="button" id="signupBtn">Sign Up</button>
+    <button class="disable" type="button" id="signinBtn">Log In</button>
+  </div>
+
    </form>
  </div>
-
 </div>
-
+<script src="Registration Form.js"></script>
   </body>
 </html>
